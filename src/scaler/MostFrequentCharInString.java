@@ -10,6 +10,7 @@ public class MostFrequentCharInString {
         System.out.println(ans);
     }
     public static char mostFrequentCharInString(String str) {
+//        freq array
         int[] freq = new int[128];
         int count = 0;
         char ans = '\u0000';
